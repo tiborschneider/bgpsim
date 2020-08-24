@@ -10,7 +10,7 @@ mod network;
 mod router;
 mod types;
 
-pub use event::{Event, EventQueue};
+pub use event::{EventQueue, Event};
 pub use types::*;
 
 #[cfg(test)]
